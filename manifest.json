@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "Profile Picture Viewer",
-    "version": "1.0.9",
+    "version": "1.10.0",
     "description": "Profile Picture Viewer",
-    "page_action": {
+    "action": {
         "default_icon": "icons/19.png",
         "default_title": "Unlock full size profile picture"
     },
@@ -12,7 +12,9 @@
         "contextMenus",
         "tabs",
         "webRequest",
-        "webRequestBlocking",
+        "webRequestBlocking"
+    ],
+    "host_permissions": [
         "https://*.facebook.com/*",
         "https://*.instagram.com/*",
         "https://*.tiktok.com/*",
